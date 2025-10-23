@@ -1,8 +1,8 @@
-name: Run API Tests Every 10 Minutes
+name: Runs daily at 12:00 AM
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Runs daily at 12:00 AM  # Runs every 10 minutes
+    - cron: "0 0 * * *"   # Runs daily at 12:00 AM
   workflow_dispatch:          # Allows manual trigger
 
 jobs:
